@@ -17,6 +17,8 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+@import "font-awesome-sprockets";
+@import 'font-awesome';
 
 //Typography styles 
  h1, h2, h3 {
