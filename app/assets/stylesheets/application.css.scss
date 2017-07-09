@@ -17,8 +17,11 @@
 // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
 @import "bootstrap-sprockets";
 @import "bootstrap";
+// http://scripts.sil.org/OFL Font Awesome License
 @import "font-awesome-sprockets";
 @import 'font-awesome';
+
+
 
 //Typography styles 
  h1, h2, h3 {
