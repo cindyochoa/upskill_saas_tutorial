@@ -18,11 +18,12 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
- 
+//Typography styles 
  h1, h2, h3 {
      font-family: 'Open Sans', sans-serif;
  }
 
+//Background gradient
  .navbar, .home-callout {
  // Gradient Providede Indrashish Ghosh @ uigradients.com
  background: #FF8008;  /* fallback for old browsers */
@@ -31,30 +32,23 @@
 
 }
 
+//Navstyle
 .navbar {
  border: none;
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a{
  color: white;
-}
-
-.navbar-default .navbar-brand:hover {
- color:white;
- opacity: 0.75;
-}
-
-.navbar-default .navbar-nav > li > a {
- color: white;
-}
-
-.navbar-default .navbar-nav > li > a:hover {
- color: white;
- opacity: 0.75;
+ &:hover {
+  color:white;
+  opacity: 0.75;
+ }
 }
 
 
-
+ 
+//Home Page Styles
 .home-callout {
  color: white;
  margin-top: -20px;
