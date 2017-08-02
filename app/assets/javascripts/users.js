@@ -21,6 +21,7 @@ $(document).on('turbolinks:load', function(){
             
         //Use Stripe JS library to check for card errors.
         var error = false;
+        
         //Validate card number.
         if(!Stripe.card.validateCardNumber(ccNum)) {
           error = true;
